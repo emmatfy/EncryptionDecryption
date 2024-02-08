@@ -11,8 +11,6 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class ClientManagement {
-//	String serverAddress = "emma-db.ck1spccey0ds.ap-southeast-2.rds.amazonaws.com";
-//	int port = 3306;
 	String serverAddress = "127.0.0.1";
 	int port = 9090;
 

@@ -16,13 +16,9 @@ import java.util.ArrayList;
 
 public class Server {
 
-	static final String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/security";
-	static final String USERNAME = "root";
+	static final String JDBC_URL = "jdbc:mysql://emma-db.ck1spccey0ds.ap-southeast-2.rds.amazonaws.com:3306/security";
+	static final String USERNAME = "admin";
 	static final String PASSWORD = "";
-
-//	static final String JDBC_URL = "jdbc:mysql://emma-db.ck1spccey0ds.ap-southeast-2.rds.amazonaws.com:3306/emmaAWS/security";
-//	static final String USERNAME = "admin";
-//	static final String PASSWORD = "luanma12";
 
 	static Connection connection;
 
